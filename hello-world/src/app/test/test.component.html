@@ -1,0 +1,20 @@
+<p>Regular assignment of class</p>
+<h1 class="text-success">{{message}}</h1>
+
+<p>Class Binding</p>
+<h1 [class]="successClass">{{message}}</h1>
+
+<p>Regular class attribute will become dummy attribute</p>
+<h1 class="text-special" [class]="successClass">{{message}}</h1>
+
+<p>Apply conditionally single classes</p>
+<h1 [class.text-danger]="hasError">{{message}}</h1>
+
+<p>Apply conditionally multiple classes using Special attribute ngClass </p>
+<p></p>
+<h1 [ngClass]="messageClasses">{{message}}</h1>
+
+<p>****************************************</p>
+<p>Style Binding </p>
+<p></p>
+<h1 [ngStyle]="titleStyles">{{message}}</h1>
