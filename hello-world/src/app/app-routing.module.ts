@@ -1,23 +1,23 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
-import { EventComponent } from './event/event.component';
-import { StyleComponent } from './style/style.component';
-import { ClassComponent } from './class/class.component';
-import { PropertyComponent } from './property/property.component';
-
 export const routes: Routes = [
   {
-    path: 'property', component: PropertyComponent
+    path: 'angular',
+    loadChildren: './angular/angular.module#AngularModule'
   },
   {
-    path: 'class', component: ClassComponent
+    path: 'spring',
+    loadChildren: './spring/spring.module#SpringModule'
   },
   {
-    path: 'style', component: StyleComponent
+    path: 'bootstrap',
+    loadChildren: './bootstrap/bootstrap.module#BootstrapModule'
   },
   {
-    path: 'event', component: EventComponent
+    path: '',
+    redirectTo: '',
+    pathMatch: 'full'
   }
 ];
 
@@ -25,4 +25,4 @@ export const routes: Routes = [
   imports: [RouterModule.forRoot(routes)],
   exports: [RouterModule]
 })
-export class AppRoutingModule { }
+export class AppRoutingModule {}
