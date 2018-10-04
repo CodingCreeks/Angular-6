@@ -1,28 +1,17 @@
-import { TestComponent } from './test/test.component';
-import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { BrowserModule } from '@angular/platform-browser';
+
+import { SharedModule } from './shared/shared.module';
+import { AppRoutingModule } from './app-routing.module';
 
 import { AppComponent } from './app.component';
-import { EventComponent } from './event/event.component';
-import { AppRoutingModule } from './app-routing.module';
-import { PropertyComponent } from './property/property.component';
-import { ClassComponent } from './class/class.component';
-import { StyleComponent } from './style/style.component';
+import { FooterComponent } from './core/footer/footer.component';
+import { HeaderComponent } from './core/header/header.component';
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    TestComponent,
-    EventComponent,
-    PropertyComponent,
-    ClassComponent,
-    StyleComponent
-  ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule
-  ],
+  declarations: [AppComponent, HeaderComponent, FooterComponent],
+  imports: [BrowserModule, AppRoutingModule, SharedModule],
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {}
