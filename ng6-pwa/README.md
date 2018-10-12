@@ -1,10 +1,11 @@
-#About Project
-
-Progressive web apps are web applications built with technologies that make them behave like native apps. A benefit of progressive web apps is the ability to work smoothly when network coverage is unreliable. Also, unlike native apps, no installation is required, but they are faster than typical web apps. This article is not about what progressive web apps are and what they are not, it is about how you can build progressive web apps with Angular. You can read more about progressive web apps
 
 # Ng6Pwa
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.2.3.
+
+## About Ng6Pwa Project
+
+Progressive web apps are web applications built with technologies that make them behave like native apps. A benefit of progressive web apps is the ability to work smoothly when network coverage is unreliable. Also, unlike native apps, no installation is required, but they are faster than typical web apps. This article is not about what progressive web apps are and what they are not, it is about how you can build progressive web apps with Angular. You can read more about progressive web apps
 
 ## Development server
 
