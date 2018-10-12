@@ -1,1 +1,1 @@
-# Angular-6
+Progressive web apps are web applications built with technologies that make them behave like native apps. A benefit of progressive web apps is the ability to work smoothly when network coverage is unreliable. Also, unlike native apps, no installation is required, but they are faster than typical web apps. This article is not about what progressive web apps are and what they are not, it is about how you can build progressive web apps with Angular. You can read more about progressive web apps
