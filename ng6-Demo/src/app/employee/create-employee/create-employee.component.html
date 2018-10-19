@@ -23,16 +23,19 @@
             </div>
 
             <div formGroupName="skills">
-                <label class="control-label" for="skillName">Skills </label>
                 <div class="row">
-                    <div class="col-4">
+                    <div class="col-8">
                         <div class="form-group">
+                            <label class="control-label" for="skillName">Skills </label>
                             <input type="text" class="form-control" id="skillName" placeholder="Name" formControlName="skillName">
                         </div>
                     </div>
-                    <div class="col-4">
+                </div>
+                <div class="row">
+                    <div class="col-8">
                         <div class="form-group">
-                            <input type="text" class="form-control" id="skillName" placeholder="Experience in Years" formControlName="experienceInYears">
+                            <label class="control-label" for="experienceInYears">Experience in Years </label>
+                            <input type="number" class="form-control" id="experienceInYears" placeholder="Experience in Years" min="0" formControlName="experienceInYears">
                         </div>
                     </div>
                 </div>
